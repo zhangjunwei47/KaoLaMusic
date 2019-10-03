@@ -30,4 +30,6 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.0.2'
     implementation rootProject.ext.dependencies["magicIndicator"]
     implementation rootProject.ext.dependencies["constraintLayout"]
+    implementation project(path: ':lib_common_ui')
+
 }

@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentActivity
 import androidx.viewpager.widget.ViewPager
 import com.kaola.kaolamusic.model.HomeActivityAdapter
 import com.kaola.kaolamusic.util.Constant
+import com.kaola.lib_common_ui.BaseActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import net.lucode.hackware.magicindicator.ViewPagerHelper
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.CommonNavigator
@@ -15,7 +16,7 @@ import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerInd
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerTitleView
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.SimplePagerTitleView
 
-class HomeActivity : FragmentActivity() {
+class HomeActivity : BaseActivity() {
 
     val CHANNELS: IntArray =
         intArrayOf(Constant.MY_CHANNEL, Constant.DOWNLOAD_CHANNEL, Constant.DISTORY_CHANNEL)

@@ -1,24 +1,26 @@
-ext{
+ext {
     android = [
-            compileSdkVersion          : 28,
-            buildToolsVersion          : "28.0.3",
-            minSdkVersion              : 17,
-            targetSdkVersion           : 24,
-            versionCode                : 20601,
-            versionName                : "2.6.1",
-            javaSourceVersion          : JavaVersion.VERSION_1_8,
-            javaTargetVersion          : JavaVersion.VERSION_1_8
+            compileSdkVersion: 28,
+            buildToolsVersion: "28.0.3",
+            minSdkVersion    : 17,
+            targetSdkVersion : 28,
+            versionCode      : 10101,
+            versionName      : "1.1.1",
+            javaSourceVersion: JavaVersion.VERSION_1_8,
+            javaTargetVersion: JavaVersion.VERSION_1_8
     ]
     version = [
-            androidSupportSdkVersion   : "27.0.2",
-            retrofitSdkVersion         : "2.4.0",
-            butterknifeSdkVersion      : "8.8.1",
-            rxlifecycle2SdkVersion     : "2.2.1",
-            canarySdkVersion           : "1.6.3",
-            glideVersion               : "4.6.1",
-            dagger2Version             : "2.16"
+            androidSupportSdkVersion: "27.0.2",
+            retrofitSdkVersion      : "2.4.0",
+            butterknifeSdkVersion   : "8.8.1",
+            rxlifecycle2SdkVersion  : "2.2.1",
+            canarySdkVersion        : "1.6.3",
+            glideVersion            : "4.6.1",
+            dagger2Version          : "2.16"
     ]
     dependencies = [
-
+            //https://github.com/hackware1993/MagicIndicator
+            "magicIndicator"  : "com.github.hackware1993:MagicIndicator:1.5.0",
+            "constraintLayout": "androidx.constraintlayout:constraintlayout:1.1.3",
     ]
 }

@@ -49,7 +49,7 @@ class HomeActivity : BaseActivity() {
             override fun getCount(): Int {
                 return CHANNELS.size
             }
-
+ 
             override fun getIndicator(context: Context?): IPagerIndicator? {
                 return null
             }

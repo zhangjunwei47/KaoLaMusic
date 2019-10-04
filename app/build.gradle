@@ -32,4 +32,6 @@ dependencies {
     implementation rootProject.ext.dependencies["constraintLayout"]
     implementation project(path: ':lib_common_ui')
     implementation project(path: ':lib_image_loader')
+    implementation project(path: ':lib_player')
+
 }

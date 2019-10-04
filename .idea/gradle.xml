@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/lib_common_ui" />
             <option value="$PROJECT_DIR$/lib_image_loader" />
+            <option value="$PROJECT_DIR$/lib_player" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

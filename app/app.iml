@@ -162,5 +162,6 @@
     <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout:1.1.3@aar" level="project" />
     <orderEntry type="module" module-name="lib_common_ui" />
     <orderEntry type="module" module-name="lib_image_loader" />
+    <orderEntry type="module" module-name="lib_player" />
   </component>
 </module>

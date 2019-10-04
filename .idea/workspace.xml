@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3b85e94-ad49-4e1c-a9f4-925236d5afe1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/ImageLoaderManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_image_loader/src/main/res/mipmap-hdpi/ic_error_round.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/lib_image_loader/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="621">
-              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -80,11 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/ImageLoaderManager.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-              <folding>
-                <element signature="e#36#912#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="437">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -93,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/util/Utils.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -159,8 +155,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1297" />
-    <option name="y" value="23" />
+    <option name="x" value="915" />
+    <option name="y" value="33" />
     <option name="width" value="1478" />
     <option name="height" value="1337" />
   </component>
@@ -177,138 +173,6 @@
             <path>
               <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
               <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="mipmap-hdpi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="mipmap-mdpi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lib_image_loader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lib_image_loader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lib_image_loader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lib_image_loader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lib_image_loader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lib_image_loader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lib_image_loader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lib_image_loader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="mipmap-hdpi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lib_image_loader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="mipmap-mdpi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lib_image_loader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="mipmap-xhdpi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lib_image_loader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="mipmap-xxhdpi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lib_image_loader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="mipmap-xxxhdpi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -434,10 +298,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="841" y="23" width="1478" height="1337" extended-state="0" />
-    <editor active="true" />
+    <frame x="915" y="33" width="1478" height="1337" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" weight="0.24303621" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.24303621" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -687,7 +550,7 @@
     <entry file="file://$PROJECT_DIR$/lib_image_loader/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -700,17 +563,14 @@
     <entry file="file://$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/util/Utils.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/ImageLoaderManager.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding>
-            <element signature="e#36#912#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
         </state>
       </provider>
     </entry>

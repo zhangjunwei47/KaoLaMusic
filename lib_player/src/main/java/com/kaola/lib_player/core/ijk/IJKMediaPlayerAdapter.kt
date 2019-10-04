@@ -9,7 +9,6 @@ import java.lang.ref.WeakReference
 
 class IJKMediaPlayerAdapter : BaseMediaPlayer() {
 
-
     var duration: Long = -1
 
     var currentPosition: Long = -1

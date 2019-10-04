@@ -1,9 +1,6 @@
 package com.kaola.lib_player.core.listener
 
 
-/**
- * @author zhangchao on 2019-09-09.
- */
 
 interface IPlayerInitCompleteListener {
     /**

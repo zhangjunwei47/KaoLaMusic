@@ -1,8 +1,6 @@
 package com.kaola.lib_player.core.listener
 
-/**
- * @author zhangchao on 2019-05-28.
- */
+
 
 interface IPlayerStateCoreListener {
 

@@ -7,8 +7,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3b85e94-ad49-4e1c-a9f4-925236d5afe1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/ijk/IJKMediaPlayerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IAudioFocusListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IPlayerBufferProgressListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IPlayerInitCompleteListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IPlayerStateCoreListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/model/BaseMediaPlayer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/AndroidMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/BaseMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/IMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/IjkLibLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/IjkMediaCodecInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/IjkMediaMeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/IjkMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/IjkMediaPlayerConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/MediaInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/SimpleMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/annotations/AccessedByNative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/annotations/CalledByNative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/exceptions/IjkMediaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/option/AvFormatOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/option/AvFourCC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/option/format/AvFormatOption_HttpDetectRangeSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/pragma/DebugLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/pragma/Pragma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_common_ui/lib_common_ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lib_common_ui/lib_common_ui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_player/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_player/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,79 +74,93 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.gradle">
+        <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/AndroidMediaPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="230">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_image_loader/consumer-rules.pro">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_image_loader/proguard-rules.pro">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+        <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/PlayerService.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#35#117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_image_loader/build.gradle">
+        <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/SimpleMediaPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="207">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/MediaInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/ijk/IJKMediaPlayerAdapter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="192" column="47" selection-start-line="192" selection-start-column="47" selection-end-line="192" selection-end-column="47" />
+              <folding>
+                <element signature="e#39#387#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/ImageLoaderManager.kt">
+        <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/IjkMediaPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="253">
+              <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/util/Utils.kt">
+        <entry file="file://$PROJECT_DIR$/lib_player/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/app/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+            <state relative-caret-position="409">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -145,23 +197,41 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/kaola/kaolamusic/HomeActivity.kt" />
         <option value="$PROJECT_DIR$/lib_image_loader/proguard-rules.pro" />
         <option value="$PROJECT_DIR$/app/proguard-rules.pro" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/config.gradle" />
         <option value="$PROJECT_DIR$/lib_image_loader/build.gradle" />
         <option value="$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/util/Utils.java" />
         <option value="$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/util/Utils.kt" />
         <option value="$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/ImageLoaderManager.kt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/PlayerService.kt" />
+        <option value="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/model/AMediaPlayer.java" />
+        <option value="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IAudioFocusListener.java" />
+        <option value="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IAudioFocusListener.kt" />
+        <option value="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IPlayerBufferProgressListener.kt" />
+        <option value="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IPlayerInitCompleteListener.kt" />
+        <option value="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/model/AMediaPlayer.kt" />
+        <option value="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IPlayerStateCoreListener.kt" />
+        <option value="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/model/BaseMediaPlayer.kt" />
+        <option value="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/ijk/IJKMediaPlayerAdapter.kt" />
+        <option value="$PROJECT_DIR$/lib_player/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="915" />
-    <option name="y" value="33" />
-    <option name="width" value="1478" />
+    <option name="x" value="492" />
+    <option name="y" value="32" />
+    <option name="width" value="1774" />
     <option name="height" value="1337" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames ProjectPane="true" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -173,6 +243,24 @@
             <path>
               <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
               <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="lib_player" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="lib_player" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KaoLaMusic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KaoLaMusic" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="lib_player" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="armeabi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,7 +274,7 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib_player/libs" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
@@ -203,11 +291,11 @@
       <recent name="com.kaola.lib_common_ui" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib_player/libs" />
+      <recent name="$PROJECT_DIR$/lib_player/src/main/java" />
+      <recent name="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener" />
+      <recent name="$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/model" />
       <recent name="$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/util" />
-      <recent name="$PROJECT_DIR$/lib_image_loader/src/main/res/mipmap-hdpi" />
-      <recent name="$PROJECT_DIR$/lib_image_loader/src/main/res" />
-      <recent name="$PROJECT_DIR$/lib_common_ui/src/main/java/com/kaola/lib_common_ui/util" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,9 +386,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="915" y="33" width="1478" height="1337" extended-state="0" />
+    <frame x="492" y="32" width="1774" height="1337" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.24303621" />
+      <window_info active="true" auto_hide="true" id="Project" visible="true" weight="0.24249423" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -315,9 +403,9 @@
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Android Profiler" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.24257028" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.24257028" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Gradle" />
@@ -373,13 +461,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.hackware1993/MagicIndicator/1.5.0/8141c778228c77123006657b68f74fdee37b1e23/MagicIndicator-1.5.0-sources.jar!/net/lucode/hackware/magicindicator/buildins/commonnavigator/abs/CommonNavigatorAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -468,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/kaola/lib_common_ui/util/StatusBarUtil.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
@@ -510,9 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -523,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib_image_loader/proguard-rules.pro">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -537,22 +601,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib_image_loader/consumer-rules.pro">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_image_loader/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images" />
@@ -569,10 +619,198 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib_image_loader/src/main/java/com/kaola/lib_image_loader/ImageLoaderManager.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="299">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib_image_loader/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IAudioFocusListener.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IPlayerBufferProgressListener.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IPlayerInitCompleteListener.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/option/format/AvFormatOption_HttpDetectRangeSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/IjkMediaPlayerConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/IMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/IjkMediaCodecInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="31" selection-start-line="31" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/IjkLibLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/MediaInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/SimpleMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/PlayerService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#35#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/BaseMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/AndroidMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/listener/IPlayerStateCoreListener.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/kaola/lib_common_ui/util/StatusBarUtil.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/model/BaseMediaPlayer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="34" column="63" lean-forward="true" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/com/kaola/lib_player/core/ijk/IJKMediaPlayerAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="192" column="47" selection-start-line="192" selection-start-column="47" selection-end-line="192" selection-end-column="47" />
+          <folding>
+            <element signature="e#39#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_player/src/main/java/tv/danmaku/ijk/media/player/IjkMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.13192612" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

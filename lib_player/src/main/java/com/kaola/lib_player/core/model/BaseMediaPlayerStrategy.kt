@@ -5,7 +5,7 @@ import com.kaola.lib_player.core.listener.IPlayerInitCompleteListener
 import com.kaola.lib_player.core.listener.IPlayerStateCoreListener
 
 
-abstract class BaseMediaPlayer {
+abstract class BaseMediaPlayerStrategy {
 
     abstract fun play()
 

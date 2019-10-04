@@ -3,11 +3,11 @@ package com.kaola.lib_player.core.ijk
 import com.kaola.lib_player.core.listener.IPlayerBufferProgressListener
 import com.kaola.lib_player.core.listener.IPlayerInitCompleteListener
 import com.kaola.lib_player.core.listener.IPlayerStateCoreListener
-import com.kaola.lib_player.core.model.BaseMediaPlayer
+import com.kaola.lib_player.core.model.BaseMediaPlayerStrategy
 import tv.danmaku.ijk.media.player.IjkMediaPlayer
 import java.lang.ref.WeakReference
 
-class IJKMediaPlayerAdapter : BaseMediaPlayer() {
+class IJKMediaPlayerStrategyAdapter : BaseMediaPlayerStrategy() {
 
     var duration: Long = -1
 
@@ -123,9 +123,9 @@ class IJKMediaPlayerAdapter : BaseMediaPlayer() {
 
 
 
-    private class IJKCallBack(ijkMediaPlayerAdapter: IJKMediaPlayerAdapter) :
+    private class IJKCallBack(ijkMediaPlayerAdapter: IJKMediaPlayerStrategyAdapter) :
         IjkMediaPlayer.ijkPlayerCallBack {
-        private val ijkMediaPlayerAdapterWeakReference: WeakReference<IJKMediaPlayerAdapter> =
+        private val ijkMediaPlayerAdapterWeakReference: WeakReference<IJKMediaPlayerStrategyAdapter> =
             WeakReference(ijkMediaPlayerAdapter)
 
         override fun message(what: Int, arg1: Int, arg2: Int, obj: Any?) {

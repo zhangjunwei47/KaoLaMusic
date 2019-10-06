@@ -35,6 +35,7 @@ dependencies {
 
     implementation rootProject.ext.dependencies["retrofit"]
     implementation rootProject.ext.dependencies["retrofit-gson"]
+    implementation rootProject.ext.dependencies["retrofit-rxjava"]
     implementation rootProject.ext.dependencies["okhttplogging"]
     implementation rootProject.ext.dependencies["gson"]
 

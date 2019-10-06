@@ -29,6 +29,8 @@ ext {
 
             "retrofit"        : "com.squareup.retrofit2:retrofit:2.6.2",
             "retrofit-gson"   : "com.squareup.retrofit2:converter-gson:2.6.2",
+            "retrofit-rxjava" :"com.squareup.retrofit2:adapter-rxjava:2.6.2",
+
             "okhttplogging"   : "com.squareup.okhttp3:logging-interceptor:3.5.0",
             "gson"            : "com.google.code.gson:gson:2.8.6",
     ]

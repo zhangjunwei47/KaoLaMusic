@@ -1,2 +1,2 @@
-include ':app', ':lib_common_ui', ':lib_image_loader', ':lib_player'
+include ':app', ':lib_common_ui', ':lib_image_loader', ':lib_player', ':lib_network', ':lib_network'
 rootProject.name='KaoLaMusic'
